@@ -1,0 +1,60 @@
+/*##################################################MEDIA-QUERIES####################################################*/
+
+/*Extra small devices (smart phones, less than 34em)*/
+@media (max-width: 20em) { 
+
+
+}
+
+@media (min-width: 22em) and (max-width: 26em){
+	
+	
+}
+
+/*Small devices (phones, tablets less than 48em)*/
+@media (max-width: 47.9em) {
+    
+}
+
+
+/*Tablets*/
+@media (min-width: 47em) and (max-width: 60em){
+   
+}
+
+/*small laptops */
+@media (min-width: 61.9em) and (max-width: 74.9em) {
+
+}
+
+
+
+/*Laptops*/
+@media (min-width: 74.9em) and (max-width: 99em){
+
+
+}
+
+/*Desktop*/
+@media (min-width: 100em){
+
+}
+
+
+
+/*Large Desktop*/
+@media(min-width:120em){
+
+
+}
+
+
+
+
+/*##################################################/MEDIA-QUERIES####################################################*/
+
+/*Hack Chrome*/
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  
+}

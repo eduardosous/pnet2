@@ -1,0 +1,14 @@
+{
+  "name": "urbano",
+  "authors": [
+    "Carlos Augusto <karlitozz.94@hotmail.com>"
+  ],
+  "description": "Site da Urbano Engenharia",
+  "main": "",
+  "license": "MIT",
+  "homepage": "https://silvacarlos.com.br",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.5"
+  }
+}
