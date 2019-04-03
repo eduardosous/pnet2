@@ -53,11 +53,12 @@ $route['default_controller'] = 'site/HomeCtrl';
 $route['empresa'] = 'site/EmpresaCtrl';
 $route['servicos'] = 'site/ServicosCtrl';
 $route['servico/(:any)'] = 'site/ServicosCtrl/servico/$1';
+$route['portfolio'] = 'site/PortfolioCtrl';
 $route['orcamento'] = 'site/OrcamentoCtrl';
 $route['contato'] = 'site/ContatoCtrl';
 $route['enviar_contato'] = 'site/EmailCtrl/enviaContato';
 $route['enviar_servico'] = 'site/EmailCtrl/enviaServico';
-$route['envia_nome_telefone'] = 'site/EmailCtrl/enviaNomeTelefone';
+
 
 
 // PRODUTOS

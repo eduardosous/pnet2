@@ -5,6 +5,8 @@ email: webx_555@hotmail.com
 /*.col-md-1{border:1px solid red;}*/
 /*.col-md-2{border:1px solid red;}*/
 /*.col-md-3{border:1px solid red;}*/
+/*.col-md-4{border:1px solid red;}*/
+/*.col-md-5{border:1px solid red;}*/
 /*.col-md-6{border:1px solid red;}*/
 /*.col-md-9{border:1px solid red;}*/
 /*.col-md-4{border:1px solid red;}*/
@@ -23,10 +25,10 @@ email: webx_555@hotmail.com
 .img-90 img { width: 90%;}
 .img-100 img { width: 100%;}
 
-body{background-color: #000 !important;}
+body{background-color: #000 !important; overflow-x: hidden;}
 
 a,p,li{font-family: 'Open Sans', sans-serif;}
-
+li{list-style: none;}
 
 .clearfix::before,
 .clearfix::after{
@@ -41,6 +43,7 @@ a,p,li{font-family: 'Open Sans', sans-serif;}
     *zoom: 1;
 }
 
+.clear{clear: both;}
 
 /*####################################################TOPO REDES SOCIAIS############################################################*/
 
@@ -59,7 +62,7 @@ a,p,li{font-family: 'Open Sans', sans-serif;}
 .menu-topo{margin-top: 0%;}
 .menu-topo ul{text-align: center;}
 .menu-topo ul li{float: left;}
-.menu-topo ul li a{color: #FFF; text-decoration: none; font-size: 0.9em; padding: 1px 10px; text-transform: uppercase;}
+.menu-topo ul li a{color: #bababa; text-decoration: none; font-size: 0.9em; padding: 1px 10px; text-transform: uppercase; font-weight: bold;}
 .menu-topo ul li:hover a{}
 .menu-topo .active a{}
 .menu-topo .current_page_item a{color: #357b23; background: #FFF; border-radius: 20px;}
@@ -70,37 +73,81 @@ a,p,li{font-family: 'Open Sans', sans-serif;}
 /*###############################################/BANNER###############################################*/
 
 
-/*###############################################SERVIÇOS##############################################*/
+/*###############################################SERVIÇOS-HOME##############################################*/
 .servico{background: url('../../site/img/servicos-bg.png') no-repeat;}
 #texto-servico{/*border:1px solid red;*/ height: auto;}
 #texto-servico p{padding-top: 50px; text-transform: uppercase;}
 #texto-servico img{margin-top: 70px;}
 .text-servico-gradient{font-size: 1.3em;}
 .bloco-servico{/*border:1px solid red;*/ height: auto;}
-.bloco-servico h2{color: #fff; text-transform: uppercase; font-weight: bold; font-size: 1.3em; float: right; position: absolute; top: 25px; left: 99px; padding: 0px;}
+.bloco-servico h2{font-family: 'Open Sans', sans-serif; color: #fff; text-transform: uppercase; font-weight: bold; font-size: 1.3em; float: right; position: absolute; top: 25px; left: 99px; padding: 0px;}
 .bloco-servico p{color: #fff; text-transform: uppercase; font-size: 0.7em; padding-left: 84px; text-align: justify;}
 .bloco-servico img{}
-/*###############################################/SERVIÇOS##############################################*/
+/*###############################################/SERVIÇOS-HOME##############################################*/
 
 /*###############################################ESCOLHA-A-PNET#############################################*/
 .escolha-a-pnet{/*border:1px solid red;*/ background: url('../../site/img/pnet.png') no-repeat; height: 343px;}
-.escolha-a-pnet h3{color:#fff; font-size: 2.9em; text-transform: uppercase; font-weight: bold; position: absolute; top:70px; left: 185px;;}
+.escolha-a-pnet h3{font-family: 'Open Sans', sans-serif; color:#fff; font-size: 2.9em; text-transform: uppercase; font-weight: bold; position: absolute; top:70px; left: 185px;;}
 .escolha-a-pnet p{color:#fff; font-size: 1.3em; text-align: justify; position: relative; left: 170px; top: -218px;}
 .receba-nosso-conteudo{background-image: linear-gradient(to bottom, #ff512f, #dd2476); height: 70px;}
-.receba-nosso-conteudo H4{color:#fff; font-weight: bold; padding-top: 22px; padding-left: 35px;}
+.receba-nosso-conteudo h4{font-family: 'Open Sans', sans-serif;color:#fff; font-weight: bold; padding-top: 22px; padding-left: 35px;}
 .link-news img{float: left; margin-top: 15px;}
 .link-news a{color:#fff; font-weight: bold; font-size: 1.1em; padding-left: 10px;}
 /*###############################################/ESCOLHA-A-PNET#############################################*/
 
+
+/*################################################SERVICOS####################################################*/
+.titulo-servico{color:#fff; height: 200px; display: block; text-align: center; padding-top: 95px; font-size: 3.0em; font-weight: bold;}
+.bloco-servico-01{background-color: #e40a47; height: 237px;}
+.bloco-servico-02{background-color: #14c74a; height: 237px;}
+.bloco-servico-03{background-color: #ffa200; height: 237px;}
+.bloco-servico-04{background-color: #4d0ae4; height: 237px;}
+.bloco-servico-05{background-color: #0687ff; height: 237px;}
+.bloco-servico-06{background-color: #02d0bf; height: 237px;}
+.bloco-servico-07{background-color: #a005f1; height: 237px;}
+.bloco-servico-08{background-color: #676767; height: 237px;}
+.bloco-servico-09{background-color: #fc3e3e; height: 237px;}
+.bloco-servico-10{background-color: #ff00d2; height: 237px;}
+.bloco-servico-11{background-color: #fe6613; height: 237px;}
+.bloco-servico-12{background-color: #0e4aae; height: 237px;}
+.bloco-servico-01 img, .bloco-servico-02 img, .bloco-servico-03 img,
+.bloco-servico-04 img, .bloco-servico-05 img, .bloco-servico-06 img,
+.bloco-servico-07 img, .bloco-servico-08 img, .bloco-servico-09 img,
+.bloco-servico-10 img, .bloco-servico-11 img, .bloco-servico-12 img
+{display: block; margin: auto; padding-top: 15px;}
+.bloco-servico-01 h2, .bloco-servico-02 h2, .bloco-servico-03 h2,
+.bloco-servico-04 h2, .bloco-servico-05 h2, .bloco-servico-06 h2,
+.bloco-servico-07 h2, .bloco-servico-08 h2, .bloco-servico-09 h2,
+.bloco-servico-10 h2, .bloco-servico-11 h2, .bloco-servico-12 h2 
+{color:#fff; text-align: center; font-weight: bold; font-size: 1.0em; text-transform: uppercase;}
+.bloco-servico-01 p, .bloco-servico-02 p, .bloco-servico-03 p,
+.bloco-servico-04 p, .bloco-servico-05 p, .bloco-servico-06 p,
+.bloco-servico-07 p, .bloco-servico-08 p, .bloco-servico-09 p,
+.bloco-servico-10 p, .bloco-servico-11 p, .bloco-servico-12 p
+{color:#fff; text-align: center;}
+.saiba-mais-servico{background-color: rgba(255, 255, 255, 0.1); width: 100%; height: 25px; position: absolute; right: 0px; top: 90%;}
+.saiba-mais-servico a{color: #fff;font-size: 0.7em;font-weight: bold;text-align: center;display: block;padding-top: 5px; text-decoration: none;}
+.como-fazemos img{margin: auto; display: block;}
+.como-fazemos p{color:#fff; text-align: center; font-weight: bold; padding-bottom: 25px;}
+.bloco-servicos-esquerdo{margin-top: 105px;}
+.bloco-servicos-esquerdo h3{font-family: 'Open Sans', sans-serif;color:#fff; font-weight: bold; text-align: right; font-size: 1.2em; text-transform: uppercase; position: relative; left: 25px;}
+.bloco-servicos-esquerdo p{color:#fff; text-align: right; padding-bottom: 75px; position: relative; left: 25px;}
+.bloco-servicos-direito{margin-top: 215px;}
+.bloco-servicos-direito h3{font-family: 'Open Sans', sans-serif;color:#fff; font-weight: bold; text-align: left; font-size: 1.2em; text-transform: uppercase; position: relative; right: 25px;}
+.bloco-servicos-direito p{color:#fff; text-align: left; padding-bottom: 75px; position: relative; right: 25px;}
+.foguete img{display: block; margin: auto;}
+.linha-foguete{background-image: linear-gradient(to bottom, #02f7ee, #0291ff); width: 14%; height: 790px; margin: auto;}
+/*################################################/SERVICOS####################################################*/
+
 /*###############################################RODAPE###############################################*/
 .bloco-endereco, .bloco-contato{/*border-right:1px solid #ff512f;*/ height: 115px;}
-.bloco-endereco h5{color:#fff; font-size: 0.9em; font-weight: bold; padding-top: 15px; padding-left: 105px;}
-.bloco-endereco p{color:#fff; font-size: 0.8em; padding-left: 105px;}
-.bloco-contato h5{color:#fff; font-size: 0.9em; font-weight: bold; padding-top: 15px; padding-left: 25px;}
+.bloco-endereco h5{color:#fff; font-size: 0.9em; font-weight: bold; padding-top: 15px; padding-left: 99px;}
+.bloco-endereco p{color:#fff; font-size: 0.8em; padding-left: 98px;}
+.bloco-contato h5{font-family: 'Open Sans', sans-serif;color:#fff; font-size: 0.9em; font-weight: bold; padding-top: 15px; padding-left: 25px;}
 .bloco-contato p{color:#fff; font-size: 0.8em; padding-left: 25px;}
-.bloco-social-media h5{color:#fff; font-size: 0.9em; font-weight: bold; padding-top: 15px; padding-left: 35px;}
+.bloco-social-media h5{font-family: 'Open Sans', sans-serif;color:#fff; font-size: 0.9em; font-weight: bold; padding-top: 15px; padding-left: 35px;}
 .sessao-fale-conosco img{float: left;}
-.sessao-fale-conosco h4{color:#fff; padding-top: 21px; font-size: 1.9em;}
+.sessao-fale-conosco h4{font-family: 'Open Sans', sans-serif;color:#fff; padding-top: 21px; font-size: 1.9em;}
 .copyright{/*border:1px solid green;*/ height: 100px; background: url('../../site/img/rodape.png') no-repeat;}
 .copyright p{color: #0291ff; font-size: 0.7em; text-align: center; padding-top: 78px;}
 /*###############################################RODAPE###############################################*/

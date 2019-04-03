@@ -35,18 +35,12 @@ class ServicosCtrl extends MY_Controller_Site {
         
         //RECUPERA AS INFORMAÇÕES CARREGADAS PELO CONSTRUTOR PAI(MY_Controller_Site)
         $data = $this->data;
+
+        //LISTA OS BANNERS
+        $data['banners'] = $this->Banners->listar_banners_site();
         
         //CARREGA O TEMPLATE E A PÁGINA
         $this->template->load('site/template', 'site/servicos', $data);
-    }
-
-    public function servico($linkServico) {
-
-        //SETA A PÁGINA PARA VERIFICAÇÃO
-        $this->template->set('bannerPage', $linkServico);
-        
-        //CARREGA O TEMPLATE E A PÁGINA
-        $this->template->load('site/template', 'site/' . $linkServico . '');
     }
 
 }

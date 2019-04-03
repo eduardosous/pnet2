@@ -16,10 +16,10 @@
                 <img class="d-block img-fluid" src="<?php print base_url("assets/site/img/banner-site-1.jpg");?>" alt="" title="">
             </div>
             <div class="carousel-item">
-                <img class="d-block img-fluid" src="<?php print base_url("assets/site/img/banner-site-2.jpg");?>" alt="" title="">
+                <img class="d-block img-fluid" src="<?php print base_url("assets/site/img/banner-site-6.jpg");?>" alt="" title="">
             </div>
             <div class="carousel-item">
-                <img class="d-block img-fluid" src="<?php print base_url("assets/site/img/banner-site-3.jpg");?>" alt="" title="">
+                <img class="d-block img-fluid" src="<?php print base_url("assets/site/img/banner-site3.jpg");?>" alt="" title="">
             </div>
             <div class="carousel-item">
                 <img class="d-block img-fluid" src="<?php print base_url("assets/site/img/banner-site-4.jpg");?>" alt="" title="">

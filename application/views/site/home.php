@@ -15,29 +15,29 @@
         </div>
         <div class="col-md-6">
             <div class="col-md-6 bloco-servico">
-                <figure class="img-30">
-                <img src="<?php print base_url('assets/site/img/googleads.png');?>" alt="logo google ads">
+            <figure class="img-30">
+                <img src="<?php print base_url('assets/site/img/google.png');?>" alt="logo google ads">
                 </figure>
                 <h2>Google Ads</h2>
                 <p>Os clientes que você procura, te encontram no Google! Aumente suas vendas, receba mais orçamentos e ligações de clientes.</p>
             </div>
             <div class="col-md-6 bloco-servico">
                 <figure class="img-30">
-                <img src="<?php print base_url('assets/site/img/gestao.png');?>" alt="logo google ads">
+                <img src="<?php print base_url('assets/site/img/redesociais1.png');?>" alt="logo google ads">
                 </figure>
                 <h2>Redes Sociais</h2>
                 <p>Engajar e relacionar-se com o público, aumentar o alcance da sua marca,potencializar as ações de Marketing Digital.</p>
             </div>
             <div class="col-md-6 bloco-servico">
             <figure class="img-30">
-                <img src="<?php print base_url('assets/site/img/devices.png');?>" alt="logo google ads">
+                <img src="<?php print base_url('assets/site/img/devices2.png');?>" alt="logo google ads">
                 </figure>
                 <h2>Criação <br> de Sites</h2>
                 <p>Desenvolvimento de sites funcionais,baseados na experiência do usuário (UX) e claro, estratégias de palavras-chave e SEO.</p>
             </div>
             <div class="col-md-6 bloco-servico">
             <figure class="img-30">
-                <img src="<?php print base_url('assets/site/img/face-insta.png');?>" alt="logo google ads">
+                <img src="<?php print base_url('assets/site/img/campanhas.png');?>" alt="logo google ads">
                 </figure>
                 <h2>Campanhas</h2>
                 <p>A web oferece diversas possibilidades para sua empresa atingir ou atrair o público e vender mais. Tudo que sua empresa precisa é definir as melhores estratégias e ações para atingir os seus objetivos!</p>

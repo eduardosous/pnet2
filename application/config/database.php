@@ -97,10 +97,10 @@ $db['local'] = array(
 
 $db['producao'] = array(
 	'dsn'	=> '',
-	'hostname' => '209.126.127.206',
-	'username' => 'gerasupe_user',
-	'password' => 'pX{ExT!+@nZY',
-	'database' => 'gerasupe_banco',
+	'hostname' => 'localhost',
+	'username' => 'net_user',
+	'password' => '0[ngJNRM~dz(',
+	'database' => 'net_banco',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
