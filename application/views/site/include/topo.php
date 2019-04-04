@@ -14,7 +14,7 @@
                 <ul>
                   <li class=" <? ativo($pagAtual, "Home") ?>"><a href="<?php print base_url('');?>">Sobre nós</a></li>
                   <li class=" <? ativo($pagAtual, "Empresa") ?>"><a href="<?php print base_url('servicos');?>">Serviços</a></li>
-                  <li class=" <? ativo($pagAtual, "Produtos") ?>"><a href="<?php print base_url('produtos');?>">Portfólio</a></li>
+                  <li class=" <? ativo($pagAtual, "Produtos") ?>"><a href="<?php print base_url('portfolio');?>">Portfólio</a></li>
                   <li class=" <? ativo($pagAtual, "Servicos") ?>"><a href="<?php print base_url('blog');?>">Blog</a></li>
                   <li class=" <? ativo($pagAtual, "Contato") ?>"><a href="<?php print base_url('contato');?>">Contato</a></li>
                 </ul>

@@ -11,7 +11,7 @@
         $this->load->view('site/include/css.php');
 
         //FAVICON
-        $this->load->view('site/include/favicon.php');
+        //$this->load->view('site/include/favicon.php');
         ?>
 
         <?php

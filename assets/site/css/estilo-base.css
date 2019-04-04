@@ -154,6 +154,29 @@ li{list-style: none;}
 .texto-modal{margin-top: 90px; color: #fff;}
 /*################################################/SERVICOS####################################################*/
 
+/*#################################################PORTFOLIO###################################################*/
+.nossos-cases{background: url('../../site/img/estrelas.png') no-repeat; height: auto; margin-bottom: 135px;}
+.titulo-nossos-cases{color:#fff; font-weight: bold; font-size: 4.0em; display: block; text-align: center; padding-top: 125px;}
+.nossos-cases img{width: 9%; position: absolute; left: 41%; top: 50%;}
+.criacao-de-sites-ativado{width: 77.8%; border:1px solid #bababa; font-family: 'Open Sans', sans-serif;font-size: 1.5em; color:#fff; font-size: 2.3em; display: block; text-align: center;}
+.criacao-de-sites-desativado{width: 77.8%; border:1px solid #bababa; font-family: 'Open Sans', sans-serif;font-size: 1.5em; color:#bababa; font-size: 2.3em; display: none; text-align: center;}
+.identidade-visual-ativado{width: 77.8%; border:1px solid #bababa; font-family: 'Open Sans', sans-serif;font-size: 1.5em; color:#fff;  font-size: 2.3em; display: none; text-align: center;}
+.identidade-visual-desativado{width: 77.8%; border:1px solid #bababa; font-family: 'Open Sans', sans-serif;font-size: 1.5em; color:#bababa;  font-size: 2.3em; display: block; text-align: center;}
+.botoes-portfolio{margin-bottom: 160px;}
+.botoes-portfolio button{background: none; border: none; cursor: pointer; color:#fff;}
+.line-color-criacao{}
+.line-gray-criacao{display: none;}
+.line-color-identidade{display: none;}
+.line-gray-identidade{}
+.seta-gif-criacao{display: block;margin: auto; position: absolute; left:28%; top: 75%; display: none;}
+.seta-gif-identidade{display: block;margin: auto; position: absolute; left:28%; top: 75%;}
+.conteudo-criacao-site{}
+.conteudo-identidade-visual{display: none;}
+.conteudo-identidade-visual img{display: block; margin: auto;}
+.linha-branca-esquerda{height: 20px; background: #fff;}
+.linha-branca-direita{height: 20px; background: #fff; position: relative; right: 30px; top: 20px; width: 106%;}
+/*#################################################/PORTFOLIO###################################################*/
+
 /*###############################################RODAPE###############################################*/
 .bloco-endereco, .bloco-contato{/*border-right:1px solid #ff512f;*/ height: 115px;}
 .bloco-endereco h5{color:#fff; font-size: 0.9em; font-weight: bold; padding-top: 15px; padding-left: 99px;}
