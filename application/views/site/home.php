@@ -85,7 +85,7 @@
          <figure class="img-15">
           <img src="<?php print base_url("assets/site/img/rocket-newsletter.png");?>" alt="">
          </figure>
-         <a href="">INSCREVA-SE</a>
+         <a href="#" class="" data-toggle="modal" data-target="#modalNews">INSCREVA-SE</a>
      </div> 
     </div>
     </div>
@@ -93,3 +93,33 @@
   </div>
 </div>
 <!---/RECEBA-NOSSO-CONTEUDO--->
+
+<!-- Modal -->
+<div class="modal fade" id="modalNews" tabindex="-1" role="dialog" aria-labelledby="modalNewsLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalNewsLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form>
+      <div class="form-group">
+            <label for="exampleInputPassword1">Nome</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Nome">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="exemplo.com.br">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>  
+      </div>
+    </div>
+  </div>
+</div>

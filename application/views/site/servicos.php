@@ -8,6 +8,10 @@
      <div class="col-md-12">
        <h1 class="titulo-servico">O QUE NÓS FAZEMOS</h1>
 
+       <?php
+          $this->load->view('site/include/modais-servicos.php');
+        ?>
+
        <div class="col-md-4 bloco-servico-01">
            <figure class="img-20">
             <img src="<?php print base_url("assets/site/img/design.png");?>" alt="">
@@ -17,7 +21,7 @@
                DNA da sua empresa
             </p>
             <div class="saiba-mais-servico">
-                <a href="">SAIBA MAIS</a>
+                <button class="link"  id="design">SAIBA MAIS</button>
             </div> 
        </div>
        <div class="col-md-4 bloco-servico-02">
@@ -29,7 +33,7 @@
                DNA da sua empresa
             </p>
             <div class="saiba-mais-servico">
-                <a href="">SAIBA MAIS</a>
+            <button class="link"  id="links">SAIBA MAIS</button>
             </div>
        </div>
        <div class="col-md-4 bloco-servico-03">
@@ -41,7 +45,7 @@
                 atualize seu público 
             </p>
             <div class="saiba-mais-servico">
-                <a href="">SAIBA MAIS</a>
+             <button class="link"  id="redes-sociais">SAIBA MAIS</button>
             </div>
        </div>
        <div class="clear"></div>
@@ -54,7 +58,7 @@
                 Maior Performance e <br> Velocidade com suporte. 
             </p>
             <div class="saiba-mais-servico">
-                <a href="">SAIBA MAIS</a>
+            <button class="link"  id="hospedagem">SAIBA MAIS</button>
             </div>
        </div>
        <div class="col-md-4 bloco-servico-05">
@@ -66,7 +70,7 @@
             O cartão de visitas da sua <br> empresa, digital.
             </p>
             <div class="saiba-mais-servico">
-                <a href="">SAIBA MAIS</a>
+            <button class="link"  id="criacao-sites">SAIBA MAIS</button>
             </div>
        </div>
        <div class="col-md-4 bloco-servico-06">
@@ -78,7 +82,7 @@
             Melhore e potencialize <br> sua empresa na web
             </p>
             <div class="saiba-mais-servico">
-                <a href="">SAIBA MAIS</a>
+            <button class="link"  id="otimizacao">SAIBA MAIS</button>
             </div>
        </div>
        <div class="clear"></div>
@@ -92,7 +96,7 @@
             e seus possíveis clientes
             </p>
             <div class="saiba-mais-servico">
-                <a href="">SAIBA MAIS</a>
+            <button class="link"  id="inbound">SAIBA MAIS</button>
             </div>
        </div>
        <div class="col-md-4 bloco-servico-08">
@@ -104,7 +108,7 @@
             Textos e redações com <br> qualidade e revisão.
             </p>
             <div class="saiba-mais-servico">
-                <a href="">SAIBA MAIS</a>
+            <button class="link"  id="conteudo">SAIBA MAIS</button>
             </div>
        </div>
        <div class="col-md-4 bloco-servico-09">
@@ -117,13 +121,13 @@
             em diversas PLATAFORMAS.
             </p>
             <div class="saiba-mais-servico">
-                <a href="">SAIBA MAIS</a>
+            <button class="link"  id="propaganda">SAIBA MAIS</button>
             </div>
        </div>
        <div class="clear"></div>
        <div class="col-md-4 bloco-servico-10">
        <figure class="img-20">
-            <img src="<?php print base_url("assets/site/img/propaganda.png");?>" alt="">
+            <img src="<?php print base_url("assets/site/img/email.png");?>" alt="">
            </figure>
            <h2>Email Marketing</h2>
             <p>
@@ -132,7 +136,7 @@
             clientes, via email
             </p>
             <div class="saiba-mais-servico">
-                <a href="">SAIBA MAIS</a>
+            <button class="link"  id="email">SAIBA MAIS</button>
             </div>
        </div>
        <div class="col-md-4 bloco-servico-11">
@@ -145,7 +149,7 @@
             conteúdo, seja vídeo ou foto.
             </p>
             <div class="saiba-mais-servico">
-                <a href="">SAIBA MAIS</a>
+            <button class="link"  id="multimidia">SAIBA MAIS</button>
             </div>
        </div>
        <div class="col-md-4 bloco-servico-12">
@@ -158,7 +162,7 @@
             desenvolva suas ideias!
             </p>
             <div class="saiba-mais-servico">
-                <a href="">SAIBA MAIS</a>
+            <button class="link"  id="desenvolvimento">SAIBA MAIS</button>
             </div>
        </div>
        </div>
@@ -263,3 +267,4 @@ pensando sempre em melhorar o seu próximo projeto!
     </div>
 </div>
 <!---/COMO FAZEMOS-->
+

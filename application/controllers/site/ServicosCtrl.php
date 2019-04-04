@@ -27,7 +27,7 @@ class ServicosCtrl extends MY_Controller_Site {
         //$this->template->set('FilesCss', array("css/"));
 
         //SETA OS ARQUIVOS JS
-        $this->template->set('FilesJs', array(""));
+        $this->template->set('FilesJs', array("js/funcao-modal"));
     }
 
     
