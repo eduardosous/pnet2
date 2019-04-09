@@ -1,5 +1,5 @@
 <?php
- $this->load->view('site/include/banner.php');
+ //$this->load->view('site/include/banner.php');
 ?>
 
 <!--NOSSOS-CASES-->
@@ -9,7 +9,7 @@
      <div class="col-md-12">
        <h1 class="titulo-nossos-cases">NOSSOS CASES</h1>
        <figure>
-           <img src="<?php print base_url("assets/site/img/moon.png");?>" alt="">
+           <img src="<?php print base_url("assets/site/img/moon-et.png");?>" alt="">
        </figure>
      </div>
      </div>

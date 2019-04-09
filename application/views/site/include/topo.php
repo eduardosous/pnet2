@@ -13,9 +13,9 @@
               <div class="menu-topo">
                 <ul>
                   <li class=" <? ativo($pagAtual, "Home") ?>"><a href="<?php print base_url('');?>">Sobre nós</a></li>
-                  <li class=" <? ativo($pagAtual, "Empresa") ?>"><a href="<?php print base_url('servicos');?>">Serviços</a></li>
-                  <li class=" <? ativo($pagAtual, "Produtos") ?>"><a href="<?php print base_url('portfolio');?>">Portfólio</a></li>
-                  <li class=" <? ativo($pagAtual, "Servicos") ?>"><a href="<?php print base_url('blog');?>">Blog</a></li>
+                  <li class=" <? ativo($pagAtual, "Servicos") ?>"><a href="<?php print base_url('servicos');?>">Serviços</a></li>
+                  <li class=" <? ativo($pagAtual, "Portfolio") ?>"><a href="<?php print base_url('portfolio');?>">Portfólio</a></li>
+                  <li class=" <? ativo($pagAtual, "Blog") ?>"><a href="<?php print base_url('blog');?>">Blog</a></li>
                   <li class=" <? ativo($pagAtual, "Contato") ?>"><a href="<?php print base_url('contato');?>">Contato</a></li>
                 </ul>
               </div>
@@ -26,11 +26,16 @@
            <img src="<?php print base_url('assets/site/img/whatsapp.png');?>" alt="whatsapp" />
          </figure>
          </div>
-         <div class="col-md-4 col-sm-3"> 
+         <!--<div class="col-md-4 col-sm-3"> 
          <figure class="img-100">
           <img src="<?php print base_url('assets/site/img/facebook.png');?>" alt="facebook" />
          </figure> 
-         </div> 
+         </div>--> 
+         <div class="col-md-4 col-sm-3">
+         <figure class="img-100"> 
+          <img src="<?php print base_url('assets/site/img/icone-linkedin.png');?>" alt="instagram" />
+        </figure>
+         </div>
          <div class="col-md-4 col-sm-3">
          <figure class="img-100"> 
           <img src="<?php print base_url('assets/site/img/instagram.png');?>" alt="instagram" />

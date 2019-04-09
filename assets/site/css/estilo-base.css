@@ -63,8 +63,8 @@ li{list-style: none;}
 .menu-topo ul{text-align: center;}
 .menu-topo ul li{float: left;}
 .menu-topo ul li a{color: #bababa; text-decoration: none; font-size: 0.9em; padding: 1px 10px; text-transform: uppercase; font-weight: bold;}
-.menu-topo ul li:hover a{}
-.menu-topo .active a{}
+.menu-topo ul li a:hover{border-bottom: 2px solid #2dbbf8;}
+.menu-topo .active a{border-bottom: 2px solid #2dbbf8;}
 .menu-topo .current_page_item a{color: #357b23; background: #FFF; border-radius: 20px;}
 /*#####################################################/MENU########################################################*/
 
@@ -92,7 +92,7 @@ li{list-style: none;}
 .receba-nosso-conteudo{background-image: linear-gradient(to bottom, #ff512f, #dd2476); height: 70px;}
 .receba-nosso-conteudo h4{font-family: 'Open Sans', sans-serif;color:#fff; font-weight: bold; padding-top: 22px; padding-left: 35px;}
 .link-news img{float: left; margin-top: 15px;}
-.link-news a{color:#fff; font-weight: bold; font-size: 1.1em; padding-left: 10px;}
+.link-news a{color:#fff; font-weight: bold; font-size: 1.1em; position: absolute; top: 38%;}
 /*###############################################/ESCOLHA-A-PNET#############################################*/
 
 
@@ -157,12 +157,12 @@ li{list-style: none;}
 /*#################################################PORTFOLIO###################################################*/
 .nossos-cases{background: url('../../site/img/estrelas.png') no-repeat; height: auto; margin-bottom: 135px;}
 .titulo-nossos-cases{color:#fff; font-weight: bold; font-size: 4.0em; display: block; text-align: center; padding-top: 125px;}
-.nossos-cases img{width: 9%; position: absolute; left: 41%; top: 50%;}
+.nossos-cases img{width: 9%; position: absolute; left: 42.2%; top: 52%;}
 .criacao-de-sites-ativado{width: 77.8%; border:1px solid #bababa; font-family: 'Open Sans', sans-serif;font-size: 1.5em; color:#fff; font-size: 2.3em; display: block; text-align: center;}
 .criacao-de-sites-desativado{width: 77.8%; border:1px solid #bababa; font-family: 'Open Sans', sans-serif;font-size: 1.5em; color:#bababa; font-size: 2.3em; display: none; text-align: center;}
 .identidade-visual-ativado{width: 77.8%; border:1px solid #bababa; font-family: 'Open Sans', sans-serif;font-size: 1.5em; color:#fff;  font-size: 2.3em; display: none; text-align: center;}
 .identidade-visual-desativado{width: 77.8%; border:1px solid #bababa; font-family: 'Open Sans', sans-serif;font-size: 1.5em; color:#bababa;  font-size: 2.3em; display: block; text-align: center;}
-.botoes-portfolio{margin-bottom: 160px;}
+.botoes-portfolio{margin-bottom: 160px; position: relative; left: 47px;}
 .botoes-portfolio button{background: none; border: none; cursor: pointer; color:#fff;}
 .line-color-criacao{}
 .line-gray-criacao{display: none;}
@@ -177,8 +177,23 @@ li{list-style: none;}
 .linha-branca-direita{height: 20px; background: #fff; position: relative; right: 30px; top: 20px; width: 106%;}
 /*#################################################/PORTFOLIO###################################################*/
 
+/*##################################################CONTATO#####################################################*/
+.contato h2{color:#fff; font-weight: bold; font-size: 2.5em; text-align: center;}
+.contato button{background-color: #0687ff; background-image: linear-gradient(to top,#0687ff 47%, #2381d8 55%); font-weight: bold; text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.6); color:#fff;}
+.contato button:hover{background-color: #1e5c96; background-image: linear-gradient();}
+.contato input{border-radius: 8px; border: 2px solid #0687ff; background: #000;}
+.contato textarea{border-radius: 8px; height: 260px; border: 2px solid #0687ff; background: #000;}
+.form-group ::-webkit-input-placeholder{color: #009cff; font-weight: bold;}
+.form-group ::-moz-placeholder{color: #009cff; font-weight: bold;}
+.form-group ::-webkit-input-placeholder{color: #009cff; font-weight: bold;}
+.form-group :-ms-input-placeholder {color: #009cff; font-weight: bold;}
+.form-group :-moz-placeholder {color: #009cff; font-weight: bold;}
+.form-group input::placeholder{color: #009cff;}
+.form-group textarea::placeholder{color: #009cff;}
+/*##################################################/CONTATO#####################################################*/
+
 /*###############################################RODAPE###############################################*/
-.bloco-endereco, .bloco-contato{/*border-right:1px solid #ff512f;*/ height: 115px;}
+.bloco-endereco, .bloco-contato{border-right:1px solid #ff512f;height: 115px;}
 .bloco-endereco h5{color:#fff; font-size: 0.9em; font-weight: bold; padding-top: 15px; padding-left: 99px;}
 .bloco-endereco p{color:#fff; font-size: 0.8em; padding-left: 98px;}
 .bloco-contato h5{font-family: 'Open Sans', sans-serif;color:#fff; font-size: 0.9em; font-weight: bold; padding-top: 15px; padding-left: 25px;}

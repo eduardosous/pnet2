@@ -19,14 +19,14 @@
                 <img src="<?php print base_url('assets/site/img/google.png');?>" alt="logo google ads">
                 </figure>
                 <h2>Google Ads</h2>
-                <p>Os clientes que você procura, te encontram no Google! Aumente suas vendas, receba mais orçamentos e ligações de clientes.</p>
+                <p style="position:relative; top:-25px;">Os clientes que você procura, te encontram no Google! Aumente suas vendas, receba mais orçamentos e ligações de clientes.</p>
             </div>
             <div class="col-md-6 bloco-servico">
                 <figure class="img-30">
                 <img src="<?php print base_url('assets/site/img/redesociais1.png');?>" alt="logo google ads">
                 </figure>
                 <h2>Redes Sociais</h2>
-                <p>Engajar e relacionar-se com o público, aumentar o alcance da sua marca,potencializar as ações de Marketing Digital.</p>
+                <p style="position:relative; top:-25px;">Engajar e relacionar-se com o público, aumentar o alcance da sua marca,potencializar as ações de Marketing Digital.</p>
             </div>
             <div class="col-md-6 bloco-servico">
             <figure class="img-30">

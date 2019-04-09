@@ -27,17 +27,17 @@
        </div>
        <div class="col-md-3 bloco-social-media">
          <h5>SOCIAL MEDIA</h5>
-        <div class="col-md-3">
+        <div class="col-md-4">
            <figure class="img-100">
              <img src="<?php print base_url("assets/site/img/instagram.svg");?>" alt="">
            </figure>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
            <figure class="img-100">
              <img src="<?php print base_url("assets/site/img/facebook.svg");?>" alt="">
            </figure>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
            <figure class="img-100">
              <img src="<?php print base_url("assets/site/img/whats.svg");?>" alt="">
            </figure>

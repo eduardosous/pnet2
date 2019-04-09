@@ -22,8 +22,8 @@ $(function(){
         $('.line-gray-identidade').show();
         $('.line-color-criacao').show();
         $('.line-gray-criacao').hide();
-        $('.seta-gif-criacao').show();
-        $('.seta-gif-identidade').hide();
+        $('.seta-gif-criacao').hide();
+        $('.seta-gif-identidade').show();
         $('.conteudo-criacao-site').show();
         $('.conteudo-identidade-visual').hide();
     });
@@ -44,8 +44,8 @@ $(function(){
         $('.line-gray-identidade').hide();
         $('.line-color-criacao').hide();
         $('.line-gray-criacao').show();
-        $('.seta-gif-criacao').hide();
-        $('.seta-gif-identidade').show();
+        $('.seta-gif-criacao').show();
+        $('.seta-gif-identidade').hide();
         $('.conteudo-criacao-site').hide();
         $('.conteudo-identidade-visual').show();
     });
