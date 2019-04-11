@@ -51,6 +51,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'site/HomeCtrl';
 $route['empresa'] = 'site/EmpresaCtrl';
+$route['blogs'] = 'site/BlogCtrl';
+$route['blog/(:any)'] = 'site/BlogCtrl/blog/$1';
 $route['servicos'] = 'site/ServicosCtrl';
 $route['servico/(:any)'] = 'site/ServicosCtrl/servico/$1';
 $route['portfolio'] = 'site/PortfolioCtrl';

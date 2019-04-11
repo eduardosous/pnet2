@@ -152,6 +152,7 @@ li{list-style: none;}
 
 .fechar-modal{background: none; border:none; color: #fff; font-weight: bold; padding-top: 20px; cursor: pointer; text-decoration: underline; position: absolute; left: 93%;}
 .texto-modal{margin-top: 90px; color: #fff;}
+.texto-modal h2{font-family: 'Open Sans', sans-serif;}
 /*################################################/SERVICOS####################################################*/
 
 /*#################################################PORTFOLIO###################################################*/
@@ -177,6 +178,20 @@ li{list-style: none;}
 .linha-branca-direita{height: 20px; background: #fff; position: relative; right: 30px; top: 20px; width: 106%;}
 /*#################################################/PORTFOLIO###################################################*/
 
+
+/*######################################################BLOG######################################################*/
+.blog{background: url('../../site/img/estrelas.png') no-repeat; height: auto; margin-bottom: 135px;}
+.titulo-blog{font-family: 'Open Sans', sans-serif; color:#fff; font-size: 4.0em; display: block; text-align: center; padding-top: 125px; font-weight: 300;}
+.blog img{width: 9%; position: absolute; left: 69%; top: 42%;}
+.data-blog{color: #fff; text-transform: uppercase; font-size: 1.9em; font-weight: bold; text-align: center;}
+.conteudo-blog h2{font-family: 'Open Sans', sans-serif; color:#0e4aae; font-size: 1.8em; font-weight: bold;}
+.conteudo-blog h3{font-family: 'Open Sans', sans-serif; color:#0e4aae; font-size: 1.2em; font-weight: bold;}
+.conteudo-blog p{color:#fff; text-align: justify;}
+.conteudo-blog a{color: #fff; text-decoration: none; padding-bottom: 10px;}
+.conteudo-blog a:hover{color: #fff; text-decoration: none; padding-bottom: 10px;}
+.conteudo-blog li{color:#fff; list-style: disc;}
+/*######################################################/BLOG####################################################*/
+
 /*##################################################CONTATO#####################################################*/
 .contato h2{color:#fff; font-weight: bold; font-size: 2.5em; text-align: center;}
 .contato button{background-color: #0687ff; background-image: linear-gradient(to top,#0687ff 47%, #2381d8 55%); font-weight: bold; text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.6); color:#fff;}
@@ -198,7 +213,7 @@ li{list-style: none;}
 .bloco-endereco p{color:#fff; font-size: 0.8em; padding-left: 98px;}
 .bloco-contato h5{font-family: 'Open Sans', sans-serif;color:#fff; font-size: 0.9em; font-weight: bold; padding-top: 15px; padding-left: 25px;}
 .bloco-contato p{color:#fff; font-size: 0.8em; padding-left: 25px;}
-.bloco-social-media h5{font-family: 'Open Sans', sans-serif;color:#fff; font-size: 0.9em; font-weight: bold; padding-top: 15px; padding-left: 35px;}
+.bloco-social-media h5{font-family: 'Open Sans', sans-serif;color:#fff; font-size: 0.9em; font-weight: bold; padding-top: 15px; padding-left: 75px;}
 .sessao-fale-conosco img{float: left;}
 .sessao-fale-conosco h4{font-family: 'Open Sans', sans-serif;color:#fff; padding-top: 21px; font-size: 1.9em;}
 .copyright{/*border:1px solid green;*/ height: 100px; background: url('../../site/img/rodape.png') no-repeat;}

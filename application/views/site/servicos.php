@@ -184,7 +184,7 @@
                 <p>A Plataformanet conta com uma equipe para cuidar do processo e planejamento de seus <br>
                     projetos, nossos contatos iniciam antes do briefing e seguem até o pós-venda.</p>
             </div>
-            <!---COL-MD-5--->
+            <!---->
             <div class="col-md-5">
                 <div class="bloco-servicos-esquerdo">
                 <div class="col-md-12">
@@ -201,8 +201,8 @@ mesmo orçamento.
                 Ferramentas
                 </h3>
                 <p>
-                Possímos a mais alta tecnologia e trabalhamos sempre com as novidades
-de mercado, Google, Rd station, loja integrada , cia shop, loja integrada e outros!
+                Possuímos a mais alta tecnologia e trabalhamos sempre com as novidades
+de mercado, Google, Rd station, cia shop, loja integrada e outros!
                 </p>
                </div>
                <div class="col-md-12">
@@ -216,18 +216,16 @@ oferecendo as melhores otimizações e estratégias para garantir o sucesso e re
                </div>
              </div>
             </div>
-           <!---/COL-MD-5--->
+         
 
-            <!---COL-MD-2---> 
+           
             <div class="col-md-1 foguete">
                <figure class="img-100"> 
                 <img src="<?php print base_url("assets/site/img/foguetinho.png");?>" alt="">
               </figure>
                <div class="linha-foguete"></div> 
             </div>
-            <!---COL-MD-2--->  
-
-            <!---COL-MD-5--->
+            
             <div class="col-md-5">
             <div class="bloco-servicos-direito">    
             <div class="col-md-12">
@@ -262,7 +260,6 @@ pensando sempre em melhorar o seu próximo projeto!
                </div>
              </div>
             </div>
-            <!---COL-MD-5--->
         </div>
     </div>
 </div>

@@ -2,6 +2,29 @@
 <html lang="pt-br">
     <head>
 
+        <script type="text/javascript">
+         /*var ua = navigator.userAgent.toLowerCase();
+            var uMobile = '';
+            // === REDIRECIONAMENTO PARA iPhone, Windows Phone, Android, etc. ===
+            // Lista de substrings a procurar para ser identificado como mobile WAP
+            uMobile = '';
+            uMobile += 'iphone;ipod;windows phone;android;iemobile 8';
+            // Sapara os itens individualmente em um array
+            v_uMobile = uMobile.split(';');
+            // percorre todos os itens verificando se eh mobile
+            var boolMovel = false;
+            for (i=0;i<=v_uMobile.length;i++){
+                if (ua.indexOf(v_uMobile[i]) != -1){
+                    boolMovel = true;
+                }
+            }
+            if (boolMovel == true){
+                location.href='https://m.plataformanet.com.br/';
+            } else {
+                location.href='https://plataformanet.com.br/';
+            }*/
+        </script>
+
         <title>Plataformanet - <?= $title; ?></title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -48,6 +71,12 @@
     //CARREGA OS JS PADRÕES
     $this->load->view('site/include/scripts.php');
     ?>
+
+    <script>
+       function goBack() {
+       window.history.back();
+     }
+   </script>
     
     <?php
     //CARREGA OS JS NESCESSARIOS PARA CADA PÁGINA
