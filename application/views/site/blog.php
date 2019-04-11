@@ -125,6 +125,19 @@ A forma mais utilizada de links patrocinados é nos mecanismos de busca (com foc
             </div> 
 
          </div>
+
+         <div class="col-md-12">
+             <div class="row">
+                 <div class="container">
+                  <div class="col-md-6">
+                      <div class="linha-branca-esquerda"></div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="linha-branca-direita"></div>
+                  </div>
+                 </div>
+             </div>
+         </div>
     </div>
 </div>
 
