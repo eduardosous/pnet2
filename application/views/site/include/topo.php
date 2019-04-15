@@ -28,18 +28,20 @@
           </a> 
          </figure>
          </div>
-         <!--<div class="col-md-4 col-sm-3"> 
+         <div class="col-md-4 col-sm-3"> 
          <figure class="img-100">
+         <a href="https://www.facebook.com/plataformanet/" target="_blank">
           <img src="<?php print base_url('assets/site/img/facebook.png');?>" alt="facebook" />
-         </figure> 
-         </div>--> 
-         <div class="col-md-4 col-sm-3">
-         <figure class="img-100"> 
-         <a href="https://pt.linkedin.com/company/plataformanet" target="_blank">
-          <img src="<?php print base_url('assets/site/img/icone-linkedin.png');?>" alt="linkdin" />
           </a>
-        </figure>
-         </div>
+         </figure> 
+         </div> 
+         <!--<div class="col-md-4 col-sm-3">
+           <figure class="img-100"> 
+            <a href="https://pt.linkedin.com/company/plataformanet" target="_blank">
+             <img src="<?php print base_url('assets/site/img/icone-linkedin.png');?>" alt="linkdin" />
+            </a>
+            </figure>
+         </div>-->
          <div class="col-md-4 col-sm-3">
          <figure class="img-100"> 
          <a href="https://www.instagram.com/agenciaplataformanet/" target="_blank">

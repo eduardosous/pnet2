@@ -26,14 +26,19 @@
                 <img src="<?php print base_url('assets/site/img/redesociais1.png');?>" alt="logo google ads">
                 </figure>
                 <h2>Redes Sociais</h2>
-                <p style="position:relative; top:-25px;">Engajar e relacionar-se com o público, aumentar o alcance da sua marca,potencializar as ações de Marketing Digital.</p>
+                <p style="position:relative; top:-25px;">
+                  Engajar e relarciona-se com o público, aumentar o alcance da sua marca, potencializar as ações de marketing digital.
+                </p>
             </div>
+            <div class="clear"></div>
             <div class="col-md-6 bloco-servico">
             <figure class="img-30">
                 <img src="<?php print base_url('assets/site/img/devices2.png');?>" alt="logo google ads">
                 </figure>
                 <h2>Criação <br> de Sites</h2>
-                <p>Desenvolvimento de sites funcionais,baseados na experiência do usuário (UX) e claro, estratégias de palavras-chave e SEO.</p>
+                <p>
+                  Desenvolvimento de sites funcionais, baseados na experiência do usuário (ux) e claro, estratégias de palavras-chave e seo.
+                </p>
             </div>
             <div class="col-md-6 bloco-servico">
             <figure class="img-30">
@@ -48,7 +53,7 @@
 </div>
 <!--/SERVIÇO-->
 
-<!---ESCOLHA-A-PNET--->
+
 <div class="container">
     <div class="row">
         <section>
@@ -61,7 +66,7 @@
               <p>
               Experiência de mercado, criatividade e uma equipe qualificada<br>
               para oferecer novas tecnologias e campanhas para sua empresa,<br>
-              a Plataformanet está atuando a mais de 14 anos no segmento de<br>
+              a Plataformanet está atuando há mais de 14 anos no segmento de<br>
               mídia digital e nosso foco é conectar o seu negócio ao resultado<br>
               de maneira objetiva e eficaz.
               </p>
@@ -70,9 +75,8 @@
        </section>
     </div>
 </div>
-<!---/ESCOLHA-A-PNET--->
 
-<!---RECEBA-NOSSO-CONTEUDO--->
+
 <div class="container-fluid">
  <div class="row">   
  <div class="receba-nosso-conteudo">
@@ -92,32 +96,20 @@
    </div>
   </div>
 </div>
-<!---/RECEBA-NOSSO-CONTEUDO--->
+
 
 <!-- Modal -->
 <div class="modal fade" id="modalNews" tabindex="-1" role="dialog" aria-labelledby="modalNewsLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="modalNewsLabel">Modal title</h5>
+        <h5 class="modal-title" id="modalNewsLabel"></h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+          <span style="color: #fff;" aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-      <form>
-      <div class="form-group">
-            <label for="exampleInputPassword1">Nome</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Nome">
-        </div>
-        <div class="form-group">
-            <label for="exampleInputEmail1">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="exemplo.com.br">
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-        <button type="submit" class="btn btn-primary">Enviar</button>
+      <div role="main" id="contato-fa114629f14d171a75d7"></div>
         </form>  
       </div>
     </div>

@@ -27,27 +27,37 @@
        </div>
        <div class="col-md-3 bloco-social-media">
          <h5>SOCIAL MEDIA</h5>
-        <div class="col-md-4">
+        <div class="col-md-3">
            <figure class="img-100">
            <a href="https://www.instagram.com/agenciaplataformanet/" target="_blank">
              <img src="<?php print base_url("assets/site/img/instagram.svg");?>" alt="">
            </a>  
            </figure>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
+           <figure class="img-100">
+           <a href="https://pt.linkedin.com/company/plataformanet" target="_blank">
+             <img src="<?php print base_url("assets/site/img/linkedin.png");?>" alt="">
+           </a>  
+           </figure>
+        </div>
+        <div class="col-md-3">
            <figure class="img-100">
            <a href="https://www.facebook.com/plataformanet/" target="_blank">
              <img src="<?php print base_url("assets/site/img/facebook.svg");?>" alt="">
            </a>  
            </figure>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
            <figure class="img-100">
            <a href="https://api.whatsapp.com/send?phone=5511963372342" target="blank">
              <img src="<?php print base_url("assets/site/img/whats.svg");?>" alt="">
            </a>  
            </figure>
         </div>
+       </div>
+       <div class="col-md-3">
+          <div class="g-partnersbadge" data-agency-id="2820391194"></div>
        </div>
      </div>
      <div class="col-md-12">

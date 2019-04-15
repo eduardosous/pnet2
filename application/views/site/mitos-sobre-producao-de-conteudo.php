@@ -25,12 +25,12 @@
         <div class="container">
            <div class="col-md-10 offset-md-1">
            <figure class="img-100">
-             <img src="<?php print base_url("assets/site/img/banner-blog.png");?>" alt="">
+             <img src="<?php print base_url("assets/site/img/bannerblog2.png");?>" alt="">
              </figure>
            </div>
           <div class="col-md-12 conteudo-blog">
            <div class="container">
-            <h2>Mitos sobre Produção de Conteúdo – Blog Plataformanet</h2>
+            <h2>Mitos sobre Produção de Conteúdo</h2>
                 
                 <p>Quando estudamos Marketing Digital e procuramos quais são as boas práticas em Produção de Conteúdo, é comum nos depararmos com "verdades" que são ditas por diferentes fontes. </p>
 				

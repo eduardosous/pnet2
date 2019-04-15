@@ -25,12 +25,12 @@
         <div class="container">
            <div class="col-md-10 offset-md-1">
            <figure class="img-100">
-             <img src="<?php print base_url("assets/site/img/banner-blog.png");?>" alt="">
+             <img src="<?php print base_url("assets/site/img/bannerblog4.png");?>" alt="">
              </figure>
            </div>
           <div class="col-md-12 conteudo-blog">
            <div class="container">
-            <h2>Mitos sobre Mídias Sociais – Blog Plataformanet</h2>
+            <h2>Mitos sobre Mídias Sociais</h2>
                 
                 <p>A utilização das mídias sociais no marketing digital está cercada de mitos, em que muitas práticas são assumidas como certas ou erradas, sem entender o contexto ou a forma como essas estratégias foram aplicadas.</p>
 				

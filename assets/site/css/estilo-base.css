@@ -137,18 +137,18 @@ li{list-style: none;}
 .bloco-servicos-direito p{color:#fff; text-align: left; padding-bottom: 75px; position: relative; right: 25px;}
 .foguete img{display: block; margin: auto;}
 .linha-foguete{background-image: linear-gradient(to bottom, #02f7ee, #0291ff); width: 14%; height: 790px; margin: auto;}
-.modal-design{background: #e40a47; height: 475px; display: none; display: none; position: absolute; z-index: 1; width: 97.4%;}
-.modal-links{background: #14c74a; height: 475px; display: none; display: none; position: absolute; z-index: 1; width: 97.4%;}
-.modal-redes{background: #ffa200; height: 475px; display: none; display: none; position: absolute; z-index: 1; width: 97.4%;}
-.modal-hospedagem{background: #4d0ae4; height: 475px; display: none; display: none; position: absolute; z-index: 1; width: 97.4%;}
-.modal-criacao{background: #0687ff; height: 475px; display: none; display: none; position: absolute; z-index: 1; width: 97.4%;}
-.modal-otimizacao{background: #02d0bf; height: 475px; display: none; display: none; position: absolute; z-index: 1; width: 97.4%;}
-.modal-inbound{background: #a005f1; height: 475px; display: none; display: none; position: absolute; z-index: 1; width: 97.4%; top:59%;}
-.modal-conteudo{background: #676767; height: 475px; display: none; display: none; position: absolute; z-index: 1; width: 97.4%; top:59%;}
-.modal-propaganda{background: #fc3e3e; height: 475px; display: none; display: none; position: absolute; z-index: 1; width: 97.4%; top:59%;}
-.modal-email{background: #ff00d2; height: 475px; display: none; display: none; position: absolute; z-index: 1; width: 97.4%; top:59%;}
-.modal-multimidia{background: #fe6613; height: 475px; display: none; display: none; position: absolute; z-index: 1; width: 97.4%; top:59%;}
-.modal-desenvolvimento{background: #0e4aae; height: 475px; display: none; display: none; position: absolute; z-index: 1; width: 97.4%; top:59%;}
+.modal-design{background: #e40a47; min-height: 475px; display: none; display: none; position: absolute; z-index: 1; width: 97.4%;}
+.modal-links{background: #14c74a; min-height: 475px; display: none; display: none; position: absolute; z-index: 1; width: 97.4%;}
+.modal-redes{background: #ffa200; min-height: 475px; display: none; display: none; position: absolute; z-index: 1; width: 97.4%;}
+.modal-hospedagem{background: #4d0ae4; min-height: 475px; display: none; display: none; position: absolute; z-index: 1; width: 97.4%;}
+.modal-criacao{background: #0687ff; min-height: 475px; display: none; display: none; position: absolute; z-index: 1; width: 97.4%;}
+.modal-otimizacao{background: #02d0bf; min-height: 475px; display: none; display: none; position: absolute; z-index: 1; width: 97.4%;}
+.modal-inbound{background: #a005f1; min-height: 475px; display: none; display: none; position: absolute; z-index: 1; width: 97.4%; top:59%;}
+.modal-conteudo{background: #676767; min-height: 475px; display: none; display: none; position: absolute; z-index: 1; width: 97.4%; top:59%;}
+.modal-propaganda{background: #fc3e3e; min-height: 475px; display: none; display: none; position: absolute; z-index: 1; width: 97.4%; top:59%;}
+.modal-email{background: #ff00d2; min-height: 475px; display: none; display: none; position: absolute; z-index: 1; width: 97.4%; top:59%;}
+.modal-multimidia{background: #fe6613; min-height: 475px; display: none; display: none; position: absolute; z-index: 1; width: 97.4%; top:59%;}
+.modal-desenvolvimento{background: #0e4aae; min-height: 475px; display: none; display: none; position: absolute; z-index: 1; width: 97.4%; top:59%;}
 
 .fechar-modal{background: none; border:none; color: #fff; font-weight: bold; padding-top: 20px; cursor: pointer; text-decoration: underline; position: absolute; left: 93%;}
 .texto-modal{margin-top: 90px; color: #fff;}
@@ -187,7 +187,8 @@ li{list-style: none;}
 .conteudo-blog h2{font-family: 'Open Sans', sans-serif; color:#0e4aae; font-size: 1.8em; font-weight: bold;}
 .conteudo-blog h3{font-family: 'Open Sans', sans-serif; color:#0e4aae; font-size: 1.2em; font-weight: bold;}
 .conteudo-blog p{color:#fff; text-align: justify;}
-.conteudo-blog a{color: #fff; text-decoration: none; padding-bottom: 10px;}
+.conteudo-blog button{border:none; border-radius: 5px; background-color: #0687ff; background-image: linear-gradient(to top,#0687ff 47%, #2381d8 55%); font-weight: bold; text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.6); color:#fff; margin-bottom: 15px;}
+.conteudo-blog a{color: #fff;}
 .conteudo-blog a:hover{color: #fff; text-decoration: none; padding-bottom: 10px;}
 .conteudo-blog li{color:#fff; list-style: disc;}
 /*######################################################/BLOG####################################################*/
@@ -207,6 +208,12 @@ li{list-style: none;}
 .form-group textarea::placeholder{color: #009cff;}
 /*##################################################/CONTATO#####################################################*/
 
+
+/*##################################################MODAL-INSCREVA-SE############################################*/
+.modal-body{background: #000 !important;}
+.modal-header{background: #000 !important; border: none !important;}
+/*##################################################/MODAL-INSCREVA-SE############################################*/
+
 /*###############################################RODAPE###############################################*/
 .bloco-endereco, .bloco-contato{border-right:1px solid #ff512f;height: 115px;}
 .bloco-endereco h5{color:#fff; font-size: 0.9em; font-weight: bold; padding-top: 15px; padding-left: 99px;}
@@ -219,6 +226,7 @@ li{list-style: none;}
 .copyright{/*border:1px solid green;*/ height: 100px; background: url('../../site/img/rodape.png') no-repeat;}
 .copyright p{color: #0291ff; font-size: 0.7em; text-align: center; padding-top: 78px;}
 /*###############################################RODAPE###############################################*/
+
 
 
 

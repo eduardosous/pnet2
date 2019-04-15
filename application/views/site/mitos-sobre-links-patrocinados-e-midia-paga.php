@@ -25,12 +25,12 @@
         <div class="container">
            <div class="col-md-10 offset-md-1">
            <figure class="img-100">
-             <img src="<?php print base_url("assets/site/img/banner-blog.png");?>" alt="">
+             <img src="<?php print base_url("assets/site/img/bannerblog3.png");?>" alt="">
              </figure>
            </div>
           <div class="col-md-12 conteudo-blog">
            <div class="container">
-            <h2>Mitos sobre Links Patrocinados e Mídia Paga – Blog Plataformanet</h2>
+            <h2>Mitos sobre Links Patrocinados e Mídia Paga</h2>
                 
                 <p>Quando se trata de Links Patrocinados e Mídia Paga, ainda existem muitos mitos sobre quais estratégias devemos ou não seguir. E essas afirmações são assumidos como “verdades” sem que haja um estudo de contexto e análise da empresa.</p> 
 

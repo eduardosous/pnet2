@@ -29,8 +29,7 @@
             <img src="<?php print base_url("assets/site/img/links-patrocinados.png");?>" alt="">
            </figure>
            <h2>Links Patrocinados</h2>
-            <p>Criamos e mudamos o <br>
-               DNA da sua empresa
+            <p>Coloque sua empresa em <br> evidência nos maiores buscadores
             </p>
             <div class="saiba-mais-servico">
             <button class="link"  id="links">SAIBA MAIS</button>
@@ -201,8 +200,7 @@ mesmo orçamento.
                 Ferramentas
                 </h3>
                 <p>
-                Possuímos a mais alta tecnologia e trabalhamos sempre com as novidades
-de mercado, Google, Rd station, cia shop, loja integrada e outros!
+                Possuímos a mais alta tecnologia e trabalhamos sempre com as novidades de mercado, Google, Rd Station, Ciashop, Loja Integrada e outros!
                 </p>
                </div>
                <div class="col-md-12">

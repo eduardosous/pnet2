@@ -25,12 +25,12 @@
         <div class="container">
            <div class="col-md-10 offset-md-1">
            <figure class="img-100">
-             <img src="<?php print base_url("assets/site/img/banner-blog.png");?>" alt="">
+             <img src="<?php print base_url("assets/site/img/bannerblog1.png");?>" alt="">
              </figure>
            </div>
           <div class="col-md-12 conteudo-blog">
            <div class="container">
-            <h2>O que são Links Patrocinados? – Blog Plataformanet</h2>
+            <h2>O que são Links Patrocinados?</h2>
             <p>
               Os links patrocinados fazem parte das estratégias utilizadas no marketing digital. Resumidamente, pode-se dizer que é um anúncio digital em forma de textos simples. O objetivo dessa estratégia é atrair visitantes e gerar conversões.<br><br>
               A forma mais utilizada de links patrocinados é nos mecanismos de busca (com foco no Google). Um exemplo disso é quando você pesquisa algo nestes sites de busca, é possível observar que no topo da página com os resultados da busca, existem alguns sites em destaque, identificados como anúncio.<br><br>

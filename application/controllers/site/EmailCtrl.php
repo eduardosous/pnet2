@@ -53,7 +53,7 @@ class EmailCtrl extends MY_Controller_Email {
 
         //RECUPERA AS CONFIGURAÇÕES CARREGADAS PELO CONSTRUTOR PAI(MY_Controller_Email)
         $config = $this->configuracao;
-        $emaildestino = $this->emaildestino;
+        $emaildestino = "contato@plataformanet.com.br";
         $emaildestinocopia = $this->emaildestinocopia;
 
         // CARREGA O MODEL
@@ -69,7 +69,7 @@ class EmailCtrl extends MY_Controller_Email {
         $msg = formataContato($array_contato);
 
         $this->email->initialize($config);
-        $this->email->from($emaildestino, $data['loja']);
+        $this->email->from($emaildestino, "Plataformanet");
         $this->email->to($emaildestino);
         $this->email->cc($emaildestinocopia);
         $this->email->subject($array_contato['assunto']);

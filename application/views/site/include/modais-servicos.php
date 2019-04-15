@@ -5,11 +5,12 @@
     <button class="fechar-modal" id="fecha-design">X Fechar</button>    
     <div class="texto-modal">
     <h2>Design</h2>
-    <p>Branding - criação ou alteração em logotipo.<br><br>
-                Manual de identidade - padronização e regras de aplicação do logotipo<br><br>
-                KV - Criação de Key visual da sua campanha ou produto (peça conceito da campanha)<br><br>
-                Papelaria - cartões de visitas, folders, flyers, envelopes, crachás, Papel Timbrado e etc.<br><br>
-                Apresentações - criação de slides e conteúdo para sua empresa ou produto.
+    <p>
+      Branding - Criação ou alteração em logotipo.<br>
+      Manual de Identidade - Padronização e regras de aplicação do logotipo.<br><br>
+      KV - Criação de Key visual da sua campanha ou produto (peça conceito da campanha).<br><br>
+      Papelaria - Cartões de visitas, folders, flyers, envelopes, crachás, papel timbrado e etc.<br><br> 
+      Apresentações - Criação de slides e conteúdo para sua empresa ou produto.
      <p>
      </div>    
     </div>
@@ -25,10 +26,9 @@
     <div class="texto-modal">
     <h2>Links Patrocinados</h2>
     <p>Os clientes que você procura, te encontram no Google!<br><br>
-                Aumente suas vendas, receba mais orçamentos e ligações de clientes através das<br><br> 
-                palavra-chave. Você paga somente pelos resultados, quando não há acessos, não há cobrança.<br><br>
-                Você paga somente quando alguém interagir com seu anúncio, como visitar seu site ou ligar para o seu negócio.<br><br>
-                Você escolhe o orçamento que vai investir, nos links patrocinados não existe um valor mínimo nem um valor máximo de investimento, o que o próprio Google fornece é uma estimativa de tráfego com o valor ideal de investimento dia/mês, para que sua campanha fique no ar e traga retornos satisfatórios à empresa. 
+       Aumente suas vendas, receba mais orçamentos e ligações de clientes através das palavra-chave. Você paga somente pelos resultados, quando não há acessos, não há cobrança.<br><br>
+       Você paga somente quando alguém interagir com seu anúncio, como visitar seu site ou ligar para o seu negócio.<br><br>
+       Você escolhe o orçamento que vai investir, nos links patrocinados não existe um valor mínimo nem um valor máximo de investimento, o que o próprio Google fornece é uma estimativa de tráfego com o valor ideal de investimento dia/mês, para que sua campanha fique no ar e traga retornos satisfatórios à empresa.
      <p>
      </div>
     </div>
@@ -43,11 +43,9 @@
     <button class="fechar-modal" id="fecha-redes">X Fechar</button>    
     <div class="texto-modal">
     <h2>Redes Sociais</h2>
-    <p>Sua empresa precisa estar sempre conectada e nós fazemos isso para você!<br><br> 
-                Conectamos sua empresa com criação e gerenciamento de postagens semanais ou diárias, de acordo com a necessidade, o propósito das redes<br><br> 
-                hoje pode ser aumento de vendas ou até mesmo fidelizar seu público alvo.<br><br>
-                Canal onde você fica mais próximo do seu cliente e aumenta a credibilidade, fortalecendo sua marca. <br><br>
-                Nossa equipe cria postagens personalizadas e criativas para sua marca ou produto!
+    <p>Sua empresa precisa estar sempre conectada e nós fazemos isso para você!<br><br>
+       Conectamos sua empresa com criação e gerenciamento de postagens semanais ou diárias, de acordo com a necessidade, o propósito das redes hoje pode ser aumento de vendas ou até mesmo fidelizar seu público-alvo.<br><br>
+       Canal onde você fica mais próximo do seu cliente e aumenta a credibilidade, fortalecendo sua marca. Nossa equipe cria postagens personalizadas e criativas para sua marca ou produto!
      <p>
      </div>
     </div>
@@ -85,12 +83,11 @@
     <button class="fechar-modal" id="fecha-criacao">X Fechar</button>    
     <div class="texto-modal">
     <h2>Criação de Sites</h2>
-    <p>Temos expertise em criação de sites, trabalhamos com 4 tipos principais:<br><br>
-                 Loja virtual (E-commerce) - destinado a empresas com demanda de venda de produtos online<br>.
-                 Site personalizado - destinado a empresas que querem lançar sua nova identidade ou atualizar sua empresa na web.<br>
-                 Template - destinado a empresas com menor orçamento ou que está começando.<br>
-                Site catálogo – destinado a exposição de produtos ou serviços, receba orçamentos destes.<br><br>
-                Caso sua empresa precise de auxílio para determinar o melhor tipo de site, através do nosso briefing ou reunião, podemos identificar com precisão a necessidade da sua empresa!
+    <p>Loja virtual (E-commerce) - destinado às empresas com demanda de venda de produtos online.<br><br>
+       Site personalizado - destinado às empresas que querem lançar sua nova identidade ou atualizar sua empresa na web.<br><br>
+       Template - destinado às empresas com menor orçamento ou que está começando.<br><br>
+       Site catálogo – destinado à exposição de produtos ou serviços, receba orçamentos destes.<br><br>
+       Caso sua empresa precise de auxílio para determinar o melhor tipo de site, através do nosso briefing ou reunião, podemos identificar com precisão a necessidade da sua empresa!
      <p>
      </div>
     </div>
@@ -153,15 +150,15 @@
     <button class="fechar-modal" id="fecha-conteudo">X Fechar</button>    
     <div class="texto-modal">
     <h2>Conteúdo</h2>
-    <p>Somos uma empresa que produz conteúdo digital especializado. Sabemos como a tecnologia da informação transforma os negócios e o dia-a-dia. <br><br>
-                Apresentações ou lançamento de produto<br>
-                Criarmos e administramos blogs de negócios;<br>
-                Produzimos conteúdos com foco em geração de Leads;<br>
-                Produzimos conteúdos para as diferentes plataformas (blogs, redes sociais, e-mails, etc)<br> 
-                Slogans e call to actions<br>
-                Diagramação de jornais;<br>
-                Comunicação interna (e-mails e murais);<br>
-                Campanhas para SMS (Saúde, Meio-Ambiente e Segurança do Trabalho)
+    <p>Somos uma empresa que produz conteúdo digital especializado. Sabemos como a tecnologia da informação transforma os negócios e o dia a dia.<br><br> 
+        Apresentações ou lançamento de produto;<br>
+        Criarmos e administramos blogs de negócios;<br>
+        Produzimos conteúdos com foco em geração de Leads;<br>
+        Produzimos conteúdos para as diferentes plataformas (blogs, redes sociais, e-mails, etc);<br>
+        Slogans e call to actions;<br>
+        Diagramação de jornais;<br>
+        Comunicação interna (e-mails e murais);<br>
+        Campanhas para SMS (Saúde, Meio-Ambiente e Segurança do Trabalho).
      <p>
      </div>
     </div>
